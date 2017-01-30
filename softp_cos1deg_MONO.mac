@@ -1,0 +1,22 @@
+/run/verbose 0
+
+/gps/particle proton
+/gps/pos/type Plane
+/gps/pos/shape Square
+
+/gps/pos/centre 25.8491 0.0585 10.1514 cm
+/gps/pos/halfx 0.0303 cm
+/gps/pos/halfy 0.0415 cm
+
+
+/gps/ang/type cos
+/gps/ang/mintheta 0 deg
+/gps/ang/maxtheta 1 deg
+
+/gps/energy 100.0 keV
+
+
+/random/resetEngineFrom currentEvent.rndm
+/run/beamOn 1000000
+/random/saveThisRun
+
